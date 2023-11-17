@@ -1,0 +1,51 @@
+.caja1, .caja2, .caja3, .caja4{
+
+    background-color:rgba(165, 241, 145, 0.815);
+    display: flex;
+    gap: 1000px 0px;
+    flex-direction: row;
+    padding: 50px 0px;
+    margin: 0px 0px;
+}
+
+.caja1 div{
+
+    background-color: rgb(97, 168, 226);
+    width: 1280px;
+    height: 100px;
+}
+
+
+.caja2 div{
+
+    background-color: rgb(216, 11, 11);
+    width: 100px;
+    height: 100px;
+}
+
+.caja2{
+     justify-content: space-between;
+}
+
+.caja3 div{
+    background-color: rgb(197, 27, 27);
+    width: 100px;
+    height: 1200px;
+}
+
+.caja3{
+    justify-content: left;
+}
+
+.caja4 div{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.caja4{
+    justify-content: space-evenly;
+}
+
+
+
